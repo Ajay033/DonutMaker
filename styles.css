@@ -1,0 +1,102 @@
+body {
+    /* background-color: #02A9F7; */
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    width: 40%;
+    /* border-radius: 10px; */
+    height: 540px;
+    /* box-shadow: 1px 1px 1px 1px; */
+    /* background-color: white; */
+    background-image: url("./assets/donut.png");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.counter-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #02A9F7;
+    align-content: center;
+}
+
+.counter-section span {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 8px;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+.counter-section h3 {
+    font-size: 16px;
+    font-weight: 7150;
+}
+
+.counter-section p {
+    font-size: 24px;
+    font-weight: 400; 
+}
+
+.next-cost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #83ecac;
+    margin-top: 20px;
+    align-content: center;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.next-cost h3 {
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.next-cost {
+    font-size: 24px;
+    font-weight: 400; 
+}
+
+.buttons-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.buttons-section > button {
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #02A9F7;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    color: white;
+}
+
+.buttons-section > button:hover {
+    background-color: #fff;
+    border: 1px solid #02A9F7;
+    color: #02A9F7;
+}
